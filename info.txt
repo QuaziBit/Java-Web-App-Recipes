@@ -1,0 +1,3 @@
+This database model was build with: MySQL Workbench 6.3 CE
+Web-app was build with Eclipse/Java
+Run on Apache Tomcat 8.0

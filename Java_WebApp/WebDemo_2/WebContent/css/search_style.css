@@ -1,0 +1,328 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /*border: 2px solid rgb(0, 0, 0);*/
+    background-color: white;
+    padding: 2px 2px 2px 2px;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+    min-width: 98%;
+    /*max-height: 100%;*/
+}
+
+.header {
+    background-color: #bc4a28;
+    border-bottom: 5px solid #4290b4;
+    padding: 5px 5px 5px 5px;
+    margin: 2px 0px 2px 0px;
+    vertical-align: top;
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 100%;
+    min-height: 50px;
+}
+
+.header_site_name {
+    color: white;
+    text-transform: capitalize;
+    font-size: 22px;
+    float: left;
+    margin: 5px 10px 5px 10px;
+    border-bottom: 3px solid #4290b4;
+}
+
+.header_link {
+    color: white;
+    text-transform: capitalize;
+    font-size: 22px;
+    float: right;
+    margin: 5px 10px 5px 10px;
+}
+
+.header_link_home {
+    color: white;
+    text-transform: capitalize;
+    font-size: 22px;
+    float: left;
+    margin: 5px 10px 5px 10px;
+}
+
+.header_link_search {
+    color: white;
+    text-transform: capitalize;
+    font-size: 22px;
+    float: left;
+    margin: 5px 10px 5px 10px;
+}
+
+.search_holder_block {
+    text-transform: capitalize;
+    font-size: 20px;
+    float: left;
+    margin: 5px 10px 5px 10px;
+}
+
+.recipe_search_box {
+    -webkit-appearance: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+
+    min-width: 15%;
+    min-height: 100%;
+}
+
+.recipe_search_button {
+    border: 1px solid #dcd7ad;
+    background-color: rgb(54, 161, 95);
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 1px 1px 1px 1px;
+    margin: 0 auto;
+}
+
+.recipe_search_button a{
+    color: white;
+    text-decoration: none;
+}
+
+.recipe_search_button a:hover{
+    color: rgb(177, 86, 2);
+    text-decoration: none;
+}
+
+.header_link a {
+    color: white;
+    text-decoration: none;
+}
+
+.header_link a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.content_container {
+    background-color: white;
+    margin: 2px 0px 2px 0px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.recipes_container {
+    background-color: rgb(255, 255, 255);
+    padding: 4px 2px 4px 2px;
+    margin: 0 auto;
+    vertical-align: top;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 80%;
+    min-width: 80%;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.recipe_block {
+    border-bottom: 5px solid #4290b4;
+    background-color: #dcd7ad;
+    margin: 4px 4px 4px 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    width: 99.5%;
+    min-height: 10%;
+}
+
+.scale_img {
+    margin: 2px 2px 2px 2px;
+    padding: 0px 0px 0px 10px;
+    border-left: 10px solid #4290b4;
+    float: left;
+    clear: both;
+    width: 8%;
+    min-width: 8%;
+}
+
+.recipe_name_container {
+    margin: 25px 10px 10px 25px;
+    padding: 0px 0px 0px 5px;
+    border-left: 3px solid #c7610d;
+    float: left;
+    color: #c7610d;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+}
+
+.recipe_desc_container {
+    margin: 25px 10px 10px 25px;
+    padding: 0px 0px 0px 5px;
+    border-left: 3px solid #5b63b1;
+    float: left;
+    color: #5b63b1;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+}
+
+.recipe_likes_container {
+    margin: 25px 10px 10px 25px;
+    padding: 0px 0px 0px 5px;
+    border-left: 3px solid #417c4f;
+    float: left;
+    color: #417c4f;
+    font-weight: bold;
+}
+
+.recipe_details_container {
+    margin: 25px 10px 10px 135px;
+    border-bottom: 3px solid orangered;
+    text-transform: capitalize;
+    float: left;
+    font-weight: bold;
+}
+
+.recipe_details_container a {
+    color: black;
+    text-decoration: none;
+}
+
+.recipe_details_container a:hover {
+    color: white;
+}
+
+.nav_block {
+    background-color: #bc4a28;
+    border-top: 5px solid #4290b4;
+    border-bottom: 5px solid #4290b4;
+    padding: 5px 5px 5px 5px;
+    margin: 0.9% 4px 0% 4px;
+    vertical-align: bottom;
+    display: inline-block;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    min-width: 99.5%;
+}
+
+.scroll_recipes_left {
+    color: white;
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: left;
+    vertical-align: top;
+    float: left;
+    box-sizing: border-box;
+    min-width: 24%;
+    margin: 5px 10px 5px 10px;
+}
+
+.scroll_recipes_left a {
+    color: white;
+    text-decoration: none;
+}
+
+.scroll_recipes_left a:hover {
+    color: black;
+}
+
+.num_of_pages {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 45%;
+    min-width: 24%;
+    margin: 5px 10px 5px 10px;
+}
+
+.scroll_recipes_right {
+    color: white;
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: right;
+    vertical-align: top;
+    float: right;
+    box-sizing: border-box;
+    min-width: 24%;
+    margin: 5px 10px 5px 10px;
+}
+
+.scroll_recipes_right a {
+    color: white;
+    text-decoration: none;
+}
+
+.scroll_recipes_right a:hover {
+    color: black;
+}
+
+.advertisement_container {
+    background-color: rgb(255, 255, 255);
+    /*border: 1px solid rgb(0, 0, 0);*/
+    padding: 4px 2px 4px 2px;
+    margin: 0 auto;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 20%;
+    min-height: 100%;
+}
+
+.advertisement_block {
+    background-color: rgb(46, 163, 95);
+    padding: 2px 2px 2px 2px;
+    margin: 4px 4px 4px 4px;
+    align-content: center;
+    display: block;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    min-width: 19%;
+    min-height: 246.5px;
+}
+
+advertisement_image_scales {
+    padding: 0px 0px 0px 0px;
+    margin: 0 auto;
+    vertical-align: top;
+    display: inline-block;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.footer {
+    border-top: 5px solid #4290b4;
+    background-color: #9c9883;
+    /*border: 1px solid rgb(0, 0, 0);*/
+    padding: 5px 5px 5px 5px;
+    margin: 2px 0px 2px 0px;
+    vertical-align: bottom;
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 100%;
+    min-height: 50px;
+}
+
+.footer_text {
+    color: white;
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: center;
+    margin: 5px 10px 5px 10px;
+    vertical-align: top;
+}
